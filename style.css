@@ -1,0 +1,43 @@
+*{
+  margin:0px;
+  padding:0px;
+
+}
+body{
+  background-color: white;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set body height to viewport height */
+  
+  
+}
+.white-box{
+  width:100px;
+  height:100px;
+  background-color:white;
+
+  
+}
+
+.black-box{
+  width:100px;
+  height:100px;
+  background-color:black;
+
+  
+ 
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  border:7px solid black;
+  width:27.5;
+  transform: scale(0.5); 
+  transform-origin: center; /* Set the transformation origin to the center */
+  
+ 
+  
+}
+
+  
